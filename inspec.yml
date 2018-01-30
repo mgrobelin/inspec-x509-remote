@@ -1,0 +1,10 @@
+name: inspec-x509-remote
+title: InSpec profile to test x509 certificates fetched from remote socket.
+maintainer: Markus Grobelin
+copyright: Markus Grobelin
+copyright_email: grobi@koppzu.de
+license: MIT
+summary: InSpec profile to test x509 certificates fetched from remote socket.
+version: 0.0.1
+supports:
+- os-family: linux
