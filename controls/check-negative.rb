@@ -9,6 +9,6 @@ describe x509_certificate('256.0.0.0:993') do
 end
 
 # missing port
-describe x509_certificate('imap.gmail.com') do
+describe x509_certificate('imap.mail.yahoo.com') do
   its('validity_in_days') { should_not be < 100 }
 end
